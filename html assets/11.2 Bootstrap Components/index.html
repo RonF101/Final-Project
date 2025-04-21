@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Move It - Bootstrap Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"><i class="bi bi-box"></i> Move It</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Packing</a></li>
+                <li><a class="dropdown-item" href="#">Moving</a></li>
+                <li><a class="dropdown-item" href="#">Storage</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Postcode" />
+            <button class="btn btn-outline-success" type="submit">Check</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container text-center">
+        <h1>Move With Joy</h1>
+        <p>
+          Welcome to our website, where we are on a mission to provide exceptional moving
+          services to customers in the US. As a startup, we believe that moving doesn't
+          have to be stressful or complicated, and we are passionate about making the
+          process as seamless and enjoyable as possible.
+        </p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary">Get a Quote</a>
+          <a href="#" class="btn btn-secondary">Contact Us</a>
+        </div>
+        <div class="hero-image-container">
+          <img src="moving-van.jpg" alt="Moving Van" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Move With Us Section -->
+   <!-- Why Move With Us Section -->
+<section class="why-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Why Move With Us?</h2>
+    <hr />
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 d-flex flex-column p-3">
+          <div class="card-container">
+            <div class="icon-box">
+              <img src="briefcase.svg" width="32" height="32" alt="Briefcase Icon" />
+            </div>
+            <div class="icon-title"><h4>Professional</h4></div>
+          </div>
+          <p>
+            Our team of professional movers are trained to prioritize efficiency,
+            organization, and attention to detail. We understand that your possessions
+            are more than just objects – they are a reflection of your life, memories,
+            and experiences.
+          </p>
+          <a href="#" class="mt-auto text-primary">Get a quote <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 d-flex flex-column p-3">
+          <div class="card-container">
+            <div class="icon-box">
+              <img src="bus-front.svg" width="32" height="32" alt="Truck Icon" />
+            </div>
+            <div class="icon-title"><h4>Countrywide</h4></div>
+          </div>
+          <p>
+            We offer a range of services to suit your individual needs, whether you're
+            moving locally or across the country. With transparent pricing and no hidden
+            fees, you're getting a fair rate for top service.
+          </p>
+          <a href="#" class="mt-auto text-primary">Get a quote <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 d-flex flex-column p-3">
+          <div class="card-container">
+            <div class="icon-box">
+              <img src="chat-square-heart.svg" width="32" height="32" alt="Heart Icon" />
+            </div>
+            <div class="icon-title"><h4>Personal Touch</h4></div>
+          </div>
+          <p>
+            At our core, we believe that moving should be an exciting and positive
+            experience. We aim to provide a more personalized, seamless experience to
+            help you with your next move.
+          </p>
+          <a href="#" class="mt-auto text-primary">Get a quote <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-row mt-4 text-center">
+      <img src="couple.jpg" alt="Couple Moving" class="img-fluid" />
+    </div>
+  </div>
+</section>
+
+
+    <hr />
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <img src="box-seam.svg" width="20" height="20" /> Move It
+          </div>
+          <div>
+            Copyright © Move It. All Rights Reserved 2025
+          </div>
+        </div>
+
+        <div class="footer-section footer-links">
+          <h3>Help</h3>
+          <a href="#">Contact</a>
+          <a href="#">FAQ</a>
+        </div>
+
+        <div class="footer-section footer-links">
+          <h3>Learn More</h3>
+          <a href="#">Get a Quote</a>
+          <a href="#">Features</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script> 
+
+    <!-- I added the javascript since i wanted the dropdown and expand features  to work ^_^ hehe -->
+  </body>
+</html>
