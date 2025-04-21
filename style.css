@@ -63,10 +63,9 @@ p {
 }
 
 /* Logo with image beside it */
-/* Logo with image beside it */
 .logo {
     display: flex;
-    align-items: center; /* Vertically align text and image */
+    align-items: center; 
     font-size: 1.5rem;
     font-weight: bold;
     color: #333;
@@ -74,10 +73,10 @@ p {
 }
 
 .logo-img {
-    width: 30px; /* Adjust the size of the image */
+    width: 30px; 
     height: auto;
-    margin-right: 10px; /* Space between image and text */
-    border-radius: 50%; /* This will make the image round */
+    margin-right: 10px; 
+    border-radius: 50%; 
 }
 
 
@@ -264,41 +263,41 @@ p {
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 14px; /* reduced from 20px */
+    gap: 14px; 
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 12px; /* reduced from 15px */
+    gap: 12px; 
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 8px; /* reduced from 10px */
+    gap: 8px; 
 }
 
 .contact-item i {
-    font-size: 22px; /* reduced from 24px */
+    font-size: 22px; 
     color: var(--primary-color);
 }
 
 .contact-form .form-group {
-    margin-bottom: 5px; /* reduced from 10px */
+    margin-bottom: 5px; 
 }
 
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 6px; /* reduced from 10px */
+    padding: 6px; 
     border: 1px solid #ddd;
     border-radius: 5px;
     font-family: inherit;
 }
 
 .contact-form textarea {
-    height: 100px; /* reduced from 120px */
+    height: 100px; 
 }
 
 
